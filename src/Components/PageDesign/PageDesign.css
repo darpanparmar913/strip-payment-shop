@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.main_class{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_field {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: #ffffff;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    margin-top: 60px !important;
+}
+
+.CartTable {
+    width: 1200px !important;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+
+.tableHead {
+    background-color: #2e2e2e;
+}
+
+.tableHead tr th {
+    color: #f0f0f0 !important;
+}
+
+.cart_field {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartImage {
+    width: 35px;
+    height: 40px;
+}
+
+.nodataImage {
+    position: relative;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.nodataImage img {
+    width: 200px;
+}
+
+.nodataImage h2 {
+    color: #e74f62 !important;
+}
+
+.DeleteBtn {
+    color: #ea253c;
+}
+
+.totalCart td {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div:where(.swal2-icon).swal2-question,
+div:where(.swal2-icon).swal2-warning {
+    border-color: #1c1c1c !important;
+    color: #909090 !important;
+    box-shadow: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #1c1c1c;
+    box-shadow: none !important;
+}
+
+.ratingRow {
+    display: inline;
+    background-color: #036814;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.ratingRow .starRow {
+    font-size: 15px;
+}
+
+.PaynowBtn {
+    width: 117px;
+}
+
+.main_class::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f0f0f0;
+}
+
+.main_class::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #5b5b5b;
+}
